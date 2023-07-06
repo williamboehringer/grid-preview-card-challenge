@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(0, 0%, 95%);
 }
 
 *,
@@ -79,7 +80,7 @@ h2 {
 
 p {
     font-size: 1rem;
-    color: rgb(224, 224, 224);
+    color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.7;
 }
 
