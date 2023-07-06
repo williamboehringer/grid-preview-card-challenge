@@ -1,0 +1,133 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Lexend Deca;
+    margin: 0;
+}
+
+main {
+    width: clamp(600px, 80vw, 1000px);
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(30px, 4vw, 60px);
+    justify-content: space-between;
+}
+
+.sedan {
+    background: var(--bright-orange);
+    border-radius: 25px 0px 0px 25px;
+
+}
+
+.sedan button {
+    color: var(--bright-orange);
+}
+
+.suv {
+    background-color: var(--dark-cyan);
+}
+
+.content {
+    display: grid;
+    gap: 2rem;
+}
+
+.suv button {
+    color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0px 25px 25px 0px;
+}
+
+.luxury button {
+    color: var(--very-dark-cyan);
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: Big Shoulders Display;
+    color: white;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(224, 224, 224);
+    line-height: 1.7;
+}
+
+img {
+    width: 70px;
+}
+
+button {
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+}
+
+@media(max-width:670px) {
+    body {
+        height: unset;
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    main {
+        height: unset;
+        max-width: 90%;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    section {
+        justify-content: unset;
+        gap: 2rem;
+    }
+
+    .sedan{
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .luxury {
+        border-radius: 0px 0px 25px 25px;
+    }
+
+}
