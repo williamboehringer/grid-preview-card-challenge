@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://williamboehringer.github.io/newsletter-challenge/
+- Live Site URL: (https://williamboehringer.github.io/grid-preview-card-challenge/)
 
 ### Built with
 
