@@ -1,6 +1,6 @@
 # Frontend Mentor - Newsletter sign-up form with success message solution
 
-This is a solution to the [3-column preview card component]([https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [3-column preview card component challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 ### The challenge
